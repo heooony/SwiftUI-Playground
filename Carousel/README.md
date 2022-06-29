@@ -1,7 +1,6 @@
 # Carousel App
 ## 앱 이미지
-![Untitled](https://user-images.githubusercontent.com/68142821/176414268-56c07faf-dd8a-4534-91a5-87e8786a6376.png)
-![image](https://user-images.githubusercontent.com/68142821/176414287-f94aaf42-98b8-4dea-90cc-bd0a5d1e0d80.png)
+![Untitled (1)](https://user-images.githubusercontent.com/68142821/176419997-393a5d9e-707d-454f-8da5-0c4dd2234742.png)
 
 ## 프로젝트 배경 / 목표
 - SwiftUI 기반이되, SwiftUI와 UIKit을 동시에 활용하는 방법을 알아본다.
