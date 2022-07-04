@@ -122,6 +122,6 @@ PostCardView(post: post)
 
 -> 결론 : 같은 `namespace`안에서 같은 `id`를 갖고 있는 요소는 위치 및 크기가 조정될 때에 `animation`효과를 가지게 된다.
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/68142821/177068425-228a124d-a9fc-4dc2-b995-c4698468b389.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/68142821/177068425-228a124d-a9fc-4dc2-b995-c4698468b389.gif){: height: "300"}{: .center}
 
 즉, + 또는 -를 클릭하여 `GridView`가 조정될 때에 각 `post.id`를 동일하게 갖고있는 카드들은 변환될 때에 `animation`을 가질 수 있다는 이야기이다.
