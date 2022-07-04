@@ -1,4 +1,4 @@
-# WeatherAppScrolling
+# StaggeredGridApp
 ## 앱 이미지
 ![X - 6](https://user-images.githubusercontent.com/68142821/177065508-364ccd75-4863-4da2-ab6f-fffba7dc76a0.png)
 
