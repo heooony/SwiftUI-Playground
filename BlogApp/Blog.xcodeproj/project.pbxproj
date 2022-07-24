@@ -7,102 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B8BBF34F2888329000E20A42 /* FlashChatWithFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BBF34E2888329000E20A42 /* FlashChatWithFirebaseApp.swift */; };
-		B8BBF3512888329000E20A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BBF3502888329000E20A42 /* ContentView.swift */; };
-		B8BBF3532888329200E20A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BBF3522888329200E20A42 /* Assets.xcassets */; };
-		B8BBF3562888329200E20A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BBF3552888329200E20A42 /* Preview Assets.xcassets */; };
+		B8B3B69E2888FAE10070C88D /* BlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B69D2888FAE10070C88D /* BlogApp.swift */; };
+		B8B3B6A02888FAE10070C88D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B69F2888FAE10070C88D /* ContentView.swift */; };
+		B8B3B6A22888FAE20070C88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B3B6A12888FAE20070C88D /* Assets.xcassets */; };
+		B8B3B6A52888FAE20070C88D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B3B6A42888FAE20070C88D /* Preview Assets.xcassets */; };
+		B8B3B6AC2888FB6C0070C88D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8B3B6AB2888FB6C0070C88D /* GoogleService-Info.plist */; };
+		B8B3B6B72888FC3E0070C88D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B6B62888FC3E0070C88D /* Home.swift */; };
+		B8B3B6B92888FD0F0070C88D /* BlogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B6B82888FD0F0070C88D /* BlogViewModel.swift */; };
+		B8B3B6BB2888FD2A0070C88D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B6BA2888FD2A0070C88D /* Post.swift */; };
+		B8B3B6C028893AC90070C88D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B8B3B6BF28893AC90070C88D /* FirebaseFirestore */; };
+		B8B3B6C228893AC90070C88D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B8B3B6C128893AC90070C88D /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8BBF34B2888329000E20A42 /* FlashChatWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashChatWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8BBF34E2888329000E20A42 /* FlashChatWithFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashChatWithFirebaseApp.swift; sourceTree = "<group>"; };
-		B8BBF3502888329000E20A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B8BBF3522888329200E20A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8BBF3552888329200E20A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8B3B69A2888FAE10070C88D /* Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B3B69D2888FAE10070C88D /* BlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogApp.swift; sourceTree = "<group>"; };
+		B8B3B69F2888FAE10070C88D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8B3B6A12888FAE20070C88D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8B3B6A42888FAE20070C88D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8B3B6AB2888FB6C0070C88D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8B3B6B62888FC3E0070C88D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B8B3B6B82888FD0F0070C88D /* BlogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewModel.swift; sourceTree = "<group>"; };
+		B8B3B6BA2888FD2A0070C88D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B8BBF3482888329000E20A42 /* Frameworks */ = {
+		B8B3B6972888FAE10070C88D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B3B6C028893AC90070C88D /* FirebaseFirestore in Frameworks */,
+				B8B3B6C228893AC90070C88D /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B8BBF3422888329000E20A42 = {
+		B8B3B6912888FAE10070C88D = {
 			isa = PBXGroup;
 			children = (
-				B8BBF34D2888329000E20A42 /* FlashChatWithFirebase */,
-				B8BBF34C2888329000E20A42 /* Products */,
+				B8B3B69C2888FAE10070C88D /* Blog */,
+				B8B3B69B2888FAE10070C88D /* Products */,
+				B8B3B6AD2888FBD60070C88D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B8BBF34C2888329000E20A42 /* Products */ = {
+		B8B3B69B2888FAE10070C88D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8BBF34B2888329000E20A42 /* FlashChatWithFirebase.app */,
+				B8B3B69A2888FAE10070C88D /* Blog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8BBF34D2888329000E20A42 /* FlashChatWithFirebase */ = {
+		B8B3B69C2888FAE10070C88D /* Blog */ = {
 			isa = PBXGroup;
 			children = (
-				B8BBF34E2888329000E20A42 /* FlashChatWithFirebaseApp.swift */,
-				B8BBF3502888329000E20A42 /* ContentView.swift */,
-				B8BBF3522888329200E20A42 /* Assets.xcassets */,
-				B8BBF3542888329200E20A42 /* Preview Content */,
+				B8B3B6B52888FC340070C88D /* Model */,
+				B8B3B6B42888FC300070C88D /* ViewModel */,
+				B8B3B6B32888FC2A0070C88D /* View */,
+				B8B3B69D2888FAE10070C88D /* BlogApp.swift */,
+				B8B3B69F2888FAE10070C88D /* ContentView.swift */,
+				B8B3B6A12888FAE20070C88D /* Assets.xcassets */,
+				B8B3B6AB2888FB6C0070C88D /* GoogleService-Info.plist */,
+				B8B3B6A32888FAE20070C88D /* Preview Content */,
 			);
-			path = FlashChatWithFirebase;
+			path = Blog;
 			sourceTree = "<group>";
 		};
-		B8BBF3542888329200E20A42 /* Preview Content */ = {
+		B8B3B6A32888FAE20070C88D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B8BBF3552888329200E20A42 /* Preview Assets.xcassets */,
+				B8B3B6A42888FAE20070C88D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8B3B6AD2888FBD60070C88D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8B3B6B32888FC2A0070C88D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3B6B62888FC3E0070C88D /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8B3B6B42888FC300070C88D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3B6B82888FD0F0070C88D /* BlogViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B8B3B6B52888FC340070C88D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3B6BA2888FD2A0070C88D /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8BBF34A2888329000E20A42 /* FlashChatWithFirebase */ = {
+		B8B3B6992888FAE10070C88D /* Blog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8BBF3592888329200E20A42 /* Build configuration list for PBXNativeTarget "FlashChatWithFirebase" */;
+			buildConfigurationList = B8B3B6A82888FAE20070C88D /* Build configuration list for PBXNativeTarget "Blog" */;
 			buildPhases = (
-				B8BBF3472888329000E20A42 /* Sources */,
-				B8BBF3482888329000E20A42 /* Frameworks */,
-				B8BBF3492888329000E20A42 /* Resources */,
+				B8B3B6962888FAE10070C88D /* Sources */,
+				B8B3B6972888FAE10070C88D /* Frameworks */,
+				B8B3B6982888FAE10070C88D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FlashChatWithFirebase;
-			productName = FlashChatWithFirebase;
-			productReference = B8BBF34B2888329000E20A42 /* FlashChatWithFirebase.app */;
+			name = Blog;
+			packageProductDependencies = (
+				B8B3B6BF28893AC90070C88D /* FirebaseFirestore */,
+				B8B3B6C128893AC90070C88D /* FirebaseFirestoreSwift */,
+			);
+			productName = BlogApp;
+			productReference = B8B3B69A2888FAE10070C88D /* Blog.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B8BBF3432888329000E20A42 /* Project object */ = {
+		B8B3B6922888FAE10070C88D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					B8BBF34A2888329000E20A42 = {
+					B8B3B6992888FAE10070C88D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = B8BBF3462888329000E20A42 /* Build configuration list for PBXProject "FlashChatWithFirebase" */;
+			buildConfigurationList = B8B3B6952888FAE10070C88D /* Build configuration list for PBXProject "Blog" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +162,50 @@
 				en,
 				Base,
 			);
-			mainGroup = B8BBF3422888329000E20A42;
-			productRefGroup = B8BBF34C2888329000E20A42 /* Products */;
+			mainGroup = B8B3B6912888FAE10070C88D;
+			packageReferences = (
+				B8B3B6AE2888FC1C0070C88D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B8B3B6BE28893AC90070C88D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B8B3B69B2888FAE10070C88D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8BBF34A2888329000E20A42 /* FlashChatWithFirebase */,
+				B8B3B6992888FAE10070C88D /* Blog */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B8BBF3492888329000E20A42 /* Resources */ = {
+		B8B3B6982888FAE10070C88D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BBF3562888329200E20A42 /* Preview Assets.xcassets in Resources */,
-				B8BBF3532888329200E20A42 /* Assets.xcassets in Resources */,
+				B8B3B6A52888FAE20070C88D /* Preview Assets.xcassets in Resources */,
+				B8B3B6AC2888FB6C0070C88D /* GoogleService-Info.plist in Resources */,
+				B8B3B6A22888FAE20070C88D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B8BBF3472888329000E20A42 /* Sources */ = {
+		B8B3B6962888FAE10070C88D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BBF3512888329000E20A42 /* ContentView.swift in Sources */,
-				B8BBF34F2888329000E20A42 /* FlashChatWithFirebaseApp.swift in Sources */,
+				B8B3B6A02888FAE10070C88D /* ContentView.swift in Sources */,
+				B8B3B6B72888FC3E0070C88D /* Home.swift in Sources */,
+				B8B3B6B92888FD0F0070C88D /* BlogViewModel.swift in Sources */,
+				B8B3B69E2888FAE10070C88D /* BlogApp.swift in Sources */,
+				B8B3B6BB2888FD2A0070C88D /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B8BBF3572888329200E20A42 /* Debug */ = {
+		B8B3B6A62888FAE20070C88D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		B8BBF3582888329200E20A42 /* Release */ = {
+		B8B3B6A72888FAE20070C88D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +319,14 @@
 			};
 			name = Release;
 		};
-		B8BBF35A2888329200E20A42 /* Debug */ = {
+		B8B3B6A92888FAE20070C88D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FlashChatWithFirebase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BlogApp/Preview Content\"";
 				DEVELOPMENT_TEAM = V3MNWMQX37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,22 +340,22 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.application.FlashChatWithFirebase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.application.BlogApp;
+				PRODUCT_NAME = Blog;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B8BBF35B2888329200E20A42 /* Release */ = {
+		B8B3B6AA2888FAE20070C88D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FlashChatWithFirebase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BlogApp/Preview Content\"";
 				DEVELOPMENT_TEAM = V3MNWMQX37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,8 +369,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.application.FlashChatWithFirebase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.application.BlogApp;
+				PRODUCT_NAME = Blog;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,25 +380,57 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8BBF3462888329000E20A42 /* Build configuration list for PBXProject "FlashChatWithFirebase" */ = {
+		B8B3B6952888FAE10070C88D /* Build configuration list for PBXProject "Blog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BBF3572888329200E20A42 /* Debug */,
-				B8BBF3582888329200E20A42 /* Release */,
+				B8B3B6A62888FAE20070C88D /* Debug */,
+				B8B3B6A72888FAE20070C88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8BBF3592888329200E20A42 /* Build configuration list for PBXNativeTarget "FlashChatWithFirebase" */ = {
+		B8B3B6A82888FAE20070C88D /* Build configuration list for PBXNativeTarget "Blog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BBF35A2888329200E20A42 /* Debug */,
-				B8BBF35B2888329200E20A42 /* Release */,
+				B8B3B6A92888FAE20070C88D /* Debug */,
+				B8B3B6AA2888FAE20070C88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8B3B6AE2888FC1C0070C88D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B8B3B6BE28893AC90070C88D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8B3B6BF28893AC90070C88D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8B3B6BE28893AC90070C88D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B8B3B6C128893AC90070C88D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8B3B6BE28893AC90070C88D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = B8BBF3432888329000E20A42 /* Project object */;
+	rootObject = B8B3B6922888FAE10070C88D /* Project object */;
 }
